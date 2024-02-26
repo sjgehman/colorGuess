@@ -8,6 +8,10 @@
 </head>
 
 <body>
+    <div id="winnerMessage" style="display: none;">
+        <h2>WINNER!</h2>
+        <img src="winner.gif" alt="Winner" style="max-width: 100%;">
+    </div>
     <div class="colorDisplays">
         <div>
             <span class="colorLabel">Your Guess</span>
@@ -25,8 +29,62 @@
         <input type="number" id="blue" placeholder="Blue (0-255)" min="0" max="255">
         <button type="submit">Guess</button>
     </form>
+    <table id="guessTable">
+        <tr>
+            <th>Guess</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>10</th>
+        </tr>
+        <tr>
+            <td>Red</td>
+            <td></td> <!-- Empty cell for guess 1 -->
+            <td></td> <!-- Empty cell for guess 2 -->
+            <td></td> <!-- Empty cell for guess 3 -->
+            <td></td> <!-- Empty cell for guess 4 -->
+            <td></td> <!-- Empty cell for guess 5 -->
+            <td></td> <!-- Empty cell for guess 6 -->
+            <td></td> <!-- Empty cell for guess 7 -->
+            <td></td> <!-- Empty cell for guess 8 -->
+            <td></td> <!-- Empty cell for guess 9 -->
+            <td></td> <!-- Empty cell for guess 10 -->
+        </tr>
+        <tr>
+            <td>Green</td>
+            <td></td> <!-- Empty cell for guess 1 -->
+            <td></td> <!-- Empty cell for guess 2 -->
+            <td></td> <!-- Empty cell for guess 3 -->
+            <td></td> <!-- Empty cell for guess 4 -->
+            <td></td> <!-- Empty cell for guess 5 -->
+            <td></td> <!-- Empty cell for guess 6 -->
+            <td></td> <!-- Empty cell for guess 7 -->
+            <td></td> <!-- Empty cell for guess 8 -->
+            <td></td> <!-- Empty cell for guess 9 -->
+            <td></td> <!-- Empty cell for guess 10 -->
+        </tr>
+        <tr>
+            <td>Blue</td>
+            <td></td> <!-- Empty cell for guess 1 -->
+            <td></td> <!-- Empty cell for guess 2 -->
+            <td></td> <!-- Empty cell for guess 3 -->
+            <td></td> <!-- Empty cell for guess 4 -->
+            <td></td> <!-- Empty cell for guess 5 -->
+            <td></td> <!-- Empty cell for guess 6 -->
+            <td></td> <!-- Empty cell for guess 7 -->
+            <td></td> <!-- Empty cell for guess 8 -->
+            <td></td> <!-- Empty cell for guess 9 -->
+            <td></td> <!-- Empty cell for guess 10 -->
+        </tr>
+    </table>
     <div id="feedback"></div>
-    <p id="tries">Tries left: 6</p>
+    <p id="tries">Tries left: 10</p>
     <script src="script.js"></script>
 </body>
 
