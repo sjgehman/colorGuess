@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function resetGame() {
-        tries = 6;
+        tries = 10;
         targetRGB = generateRandomColor();
         updateColorDisplay(targetColor, targetRGB);
         triesDisplay.innerText = `Tries left: ${tries}`;
