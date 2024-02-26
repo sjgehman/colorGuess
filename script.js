@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const targetColor = document.getElementById('targetColor');
     const triesDisplay = document.getElementById('tries');
     const feedback = document.getElementById('feedback'); // Element to display feedback
-    let tries = 6;
+    let tries = 10;
     let targetRGB;
 
     function generateRandomColor() {
