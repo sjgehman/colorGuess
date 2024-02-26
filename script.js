@@ -53,11 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
             feedback.innerHTML = `
                 <p>Your guess is ${overallAccuracy}% accurate:</p>
-                <ul>
-                    <li>Red accuracy: ${redAccuracy}%</li>
-                    <li>Green accuracy: ${greenAccuracy}%</li>
-                    <li>Blue accuracy: ${blueAccuracy}%</li>
-                </ul>
             `;
 
             if (guessedRGB.r === targetRGB.r && guessedRGB.g === targetRGB.g && guessedRGB.b === targetRGB.b) {
