@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="colorDisplays">
+        <div>
+            <span class="colorLabel">Your Guess</span>
+            <div id="guessColor" class="colorDisplay"></div>
+        </div>
+        <div>
+            <span class="colorLabel">Target Color</span>
+            <div id="targetColor" class="colorDisplay"></div>
+        </div>
+    </div>
+
+    <form id="guessForm">
+        <input type="number" id="red" placeholder="Red (0-255)" min="0" max="255">
+        <input type="number" id="green" placeholder="Green (0-255)" min="0" max="255">
+        <input type="number" id="blue" placeholder="Blue (0-255)" min="0" max="255">
+        <button type="submit">Guess</button>
+    </form>
+    <div id="feedback"></div>
+    <p id="tries">Tries left: 6</p>
+    <script src="script.js"></script>
+</body>
+
+</html>
